@@ -1,0 +1,145 @@
+body{
+    background: rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+ }
+
+ h1{
+     color: black;
+ }
+
+p{
+    color: rgb(0, 0, 0);
+}
+
+ol{
+color: rgb(0, 0, 139);
+}
+
+.uno{
+    width: 700px;
+}
+
+.dos{
+    width: 700px;
+}
+
+nav{
+    background: #80ff00;
+    padding:10px;
+    text-align: right;
+}
+
+li{
+    display: inline;
+    color: rgb(247, 160, 0);
+    padding:10px;
+}   
+
+.Tendencias{
+    background: rgb(119, 13, 206);
+    text-align: center;
+}
+
+.IA{
+    background: rgb(0, 255, 13);
+    text-align: center  ;
+}
+
+.video{
+   text-align: center; 
+}
+
+.Menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Logo{
+    width: 100px;
+}
+
+.Menu ol li{
+    display: inline;
+    padding: 10px;
+    
+}
+
+.Menu ol li a{
+    color: darkgrey;
+    text-decoration: none;
+}
+
+.principal{
+    font-size: 20px;
+    text-align: center;
+    background-image: url(../img/fondoEspacio.png);
+    background-size: cover;
+    font-family: 'Nunito', sans-serif;
+    color: white;
+    padding: 100px;
+}
+
+.principal img{
+    width: 300px;
+}
+
+h1 strong{
+    color: white;
+}
+
+.principal-botton{
+    width:250px;
+    height: 40px;
+    background-color: rgb(64, 64, 230);
+    border-radius: 24px;
+    border: none;
+    font-size :20px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+/*
+.padre{
+    background: white;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+    height: 500px;
+    align-items: center;
+}
+
+.hijo{
+    background: orange;
+    width: 200px;
+    height: 200px;
+    border: 2px solid yellowgreen;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+*/
+
+.aplicar{
+    height: 500px;
+    background: rgb(255, 255, 255);
+    display: flex;
+    color: black;
+}
+
+.aplicar-detalles{
+    width: 50%;
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px 30px;
+    text-align: center;
+}
+
+.aplicar-detalles img{
+    height: 90%;
+}
