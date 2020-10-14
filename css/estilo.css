@@ -24,7 +24,7 @@ color: rgb(0, 0, 139);
 }
 
 nav{
-    background: #80ff00;
+    background: #ffe600;
     padding:10px;
     text-align: right;
 }
@@ -73,8 +73,8 @@ li{
 .principal{
     font-size: 20px;
     text-align: center;
-    background-image: url(../img/fondoEspacio.png);
-    background-size: cover;
+    background-image: url(../img/Contaminacion.jpg);
+    background-size: 100%;
     font-family: 'Nunito', sans-serif;
     color: white;
     padding: 100px;
