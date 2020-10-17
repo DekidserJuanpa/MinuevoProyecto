@@ -9,7 +9,7 @@ body{
  }
 
 p{
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
 }
 
 ol{
@@ -151,3 +151,49 @@ h1 strong{
 .aplicar-detalles img{
     height: 90%;
 }
+
+.container1{
+    display: flex;
+    background: #99cc00;
+    padding: 20px;
+    justify-content: space-around;
+}
+.container2{
+    background: rgb(94, 14, 94);
+    text-align: center;
+}
+
+.col1-container1 {
+width: 400px;
+}
+.col2-container1 {
+width: 200px;
+}
+
+.col3-container1{
+width: 300px;
+}
+
+.row1-contacto img{ 
+width: 35px;
+height: 35px;
+}
+
+.row2-contacto img {
+    width: 35px;
+    height: 35px;
+}
+.row1-redes img {
+width: 35px;
+height: 35px;
+}
+
+.row1-contacto{
+    display: flex;
+    margin: 10px 0px;
+}
+
+.row1-contacto p {
+    padding-left: 10px;
+}
+
